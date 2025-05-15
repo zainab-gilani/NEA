@@ -32,9 +32,18 @@
   font-style: normal;
 }
 
+h1 {
+  font-family: 'Abril Fatface', serif;
+  font-size: 3.5rem;
+  color: #2D5289;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
 
 body {
-  background-color: #e8edf3;
+  background-color: #ffffff;
 }
 
 
