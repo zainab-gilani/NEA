@@ -23,3 +23,18 @@
 <body>
 <h1>UniMatch</h1>
 </html>
+
+<form method="post">
+    {% csrf_token %}
+    {{ form.username.label_tag }}
+    {{ form.username }}
+
+    <br><br>
+
+    {{ form.password.label_tag }}
+    {{ form.password }}
+
+    <br><br>
+
+    <button type="submit">LOGIN</button>
+</form>
